@@ -23,12 +23,12 @@ module.exports = {
     locales: {
         '/': {
             lang: 'zh-CN',
-            title: 'EAsis 企业级快速开发模型',
+            title: 'EAsis',
             description: '企业级快速开发模型'
         },
         '/en/': {
             lang: 'en-US',
-            title: 'EAsis 企业级快速开发模型',
+            title: 'EAsis',
             description: '企业级快速开发模型'
         }
     },

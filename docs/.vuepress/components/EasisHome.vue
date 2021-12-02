@@ -235,7 +235,7 @@ export default defineComponent({
 @media (max-width: $MQMobile) {
     .home-blog {
         .hero {
-            height 450px
+            height 650px
             img {
                 max-height: 210px;
                 margin: 2rem auto 1.2rem;
@@ -253,6 +253,10 @@ export default defineComponent({
             .action-button {
                 font-size: 1rem;
                 padding: 0.6rem 1.2rem;
+
+                & + .action-button{
+                    margin-left 1em;
+                }
             }
         }
         .home-blog-wrapper {
@@ -264,7 +268,7 @@ export default defineComponent({
                 // display none!important
                 margin-left 0
                 .personal-info-wrapper {
-                    display none
+                    display none !important;
                 }
             }
         }
@@ -274,7 +278,7 @@ export default defineComponent({
 @media (max-width: $MQMobileNarrow) {
     .home-blog {
         .hero {
-            height 450px
+            height 650px
             img {
                 max-height: 210px;
                 margin: 2rem auto 1.2rem;
@@ -308,7 +312,7 @@ export default defineComponent({
                 // display none!important
                 margin-left 0
                 .personal-info-wrapper {
-                    display none
+                    display none !important;
                 }
             }
         }
