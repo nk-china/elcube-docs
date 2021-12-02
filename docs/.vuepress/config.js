@@ -44,16 +44,17 @@ module.exports = {
                     { text: '首页', link: '/' },
                     { text: '指南', link: '/guide/' },
                     { text: '开发', link: '/develop/' },
+                    { text: 'EAsis Pro', link: '/easis-pro.md'},
                     {
                         text: '更多',
                         items: [
                             { text: '服务支持', items: [
-                                    {text: '企业定制', link: '/develop/'},
-                                    {text: '反馈', link: '/develop/'},
+                                    {text: '企业定制', link: '/customize.md'},
+                                    {text: '反馈交流', link: '/feedback.md'},
                                 ] },
-                            { text: 'Group2', items: [
-                                    {text: '企业定制', link: '/develop/'},
-                                    {text: '反馈', link: '/develop/'},
+                            { text: '联系我们', items: [
+                                    {text: '联系我们', link: '/contact.md'},
+                                    {text: '关于EAsis', link: '/about.md'},
                                 ] }
                         ]
                     },
