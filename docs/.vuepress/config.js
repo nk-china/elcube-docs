@@ -1,15 +1,17 @@
 module.exports = {
+    theme: 'reco',
     plugins: [
         '@vuepress/active-header-links',
         '@vuepress/back-to-top',
         '@vuepress/medium-zoom',
+        '@vuepress/plugin-register-components',
+        'vuepress-plugin-container',
     ],
     port: 8200,
     dest: './dist',
-    theme: '@vuepress/vue',
     head: [
         ['link', { rel: 'icon', href: `/assets/easis.logo.min.png` }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        // ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#fff' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -33,11 +35,22 @@ module.exports = {
     themeConfig: {
         logo: '/assets/easis.logo.png',
         repo: 'easis-docs',
+        type: 'EasisHome',
+
         editLinks: true,
         docsDir: 'docs',
         smoothScroll: true,
         displayAllHeaders: false,
         lastUpdated: 'Last Updated', // string | boolean
+
+        record: 'ICP 备案文案',
+        recordLink: 'ICP 备案指向链接',
+        // cyberSecurityRecord: '公安部备案文案',
+        // cyberSecurityLink: '公安部备案指向链接',
+        // 项目开始时间，只填写年份
+        startYear: '2019',
+        noFoundPageByTencent: false,
+
         locales: {
             '/': {
                 label: '简体中文',
