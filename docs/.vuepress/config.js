@@ -1,4 +1,6 @@
 module.exports = {
+    port: 8200,
+    dest: './dist',
     theme: '@vuepress/vue',
     locales: {
         '/': {
@@ -37,11 +39,11 @@ module.exports = {
                             { text: '服务支持', items: [
                                     {text: '企业定制', link: '/develop/'},
                                     {text: '反馈', link: '/develop/'},
-                            ] },
+                                ] },
                             { text: 'Group2', items: [
                                     {text: '企业定制', link: '/develop/'},
                                     {text: '反馈', link: '/develop/'},
-                            ] }
+                                ] }
                         ]
                     },
                     // { text: 'GitHub', link: 'https://github.com/nk-china/easis-backend' },

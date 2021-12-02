@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2225a11-a885-482f-839b-4bc56adb96df" name="Default Changelist" comment="" />
+    <list default="true" id="b2225a11-a885-482f-839b-4bc56adb96df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,20 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.docs:build">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/easis-docs/docs/.vuepress/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -56,7 +73,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.docs:dev" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -71,29 +90,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638426652344</updated>
-      <workItem from="1638426653455" duration="6100000" />
+      <workItem from="1638426653455" duration="6562000" />
     </task>
+    <task id="LOCAL-00001" summary="Easis Docs">
+      <created>1638433002523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638433002523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Easis Docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Easis Docs" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="565" key="GridCell.Tab.0.bottom" timestamp="1638429545693">
+    <state x="537" y="103" key="CommitChangelistDialog2" timestamp="1638433002442">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="565" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1638429545693" />
-    <state width="1899" height="565" key="GridCell.Tab.0.center" timestamp="1638429545691">
+    <state x="537" y="103" key="CommitChangelistDialog2/0.23.1920.1010@0.23.1920.1010" timestamp="1638433002442" />
+    <state width="1899" height="387" key="GridCell.Tab.0.bottom" timestamp="1638433383170">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="565" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1638429545691" />
-    <state width="1899" height="565" key="GridCell.Tab.0.left" timestamp="1638429545690">
+    <state width="1899" height="387" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383170" />
+    <state width="1899" height="387" key="GridCell.Tab.0.center" timestamp="1638433383169">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="565" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1638429545690" />
-    <state width="1899" height="565" key="GridCell.Tab.0.right" timestamp="1638429545692">
+    <state width="1899" height="387" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383169" />
+    <state width="1899" height="387" key="GridCell.Tab.0.left" timestamp="1638433383169">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="565" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1638429545692" />
+    <state width="1899" height="387" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383169" />
+    <state width="1899" height="387" key="GridCell.Tab.0.right" timestamp="1638433383170">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state width="1899" height="387" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383170" />
   </component>
 </project>
