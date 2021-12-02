@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b2225a11-a885-482f-839b-4bc56adb96df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +20,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21ib38dOQU4WRJ5OZnNz8yqOnhU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
@@ -90,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638426652344</updated>
-      <workItem from="1638426653455" duration="6562000" />
+      <workItem from="1638426653455" duration="6588000" />
     </task>
     <task id="LOCAL-00001" summary="Easis Docs">
       <created>1638433002523</created>
@@ -99,21 +100,29 @@
       <option name="project" value="LOCAL" />
       <updated>1638433002523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Easis Docs">
+      <created>1638433417871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638433417871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Easis Docs" />
     <option name="LAST_COMMIT_MESSAGE" value="Easis Docs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="537" y="103" key="CommitChangelistDialog2" timestamp="1638433002442">
+    <state x="537" y="103" key="CommitChangelistDialog2" timestamp="1638433417798">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="537" y="103" key="CommitChangelistDialog2/0.23.1920.1010@0.23.1920.1010" timestamp="1638433002442" />
+    <state x="537" y="103" key="CommitChangelistDialog2/0.23.1920.1010@0.23.1920.1010" timestamp="1638433417798" />
     <state width="1899" height="387" key="GridCell.Tab.0.bottom" timestamp="1638433383170">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
