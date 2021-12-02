@@ -4,7 +4,7 @@ heroImage: /easis.logo.png
 heroText: 开启企业级信息化的新范式
 tagline: 提升企业驾驭复杂场景的能力及频繁变更
 actionText: 快速上手 →
-actionLink: /zh/guide/
+actionLink: /guide/
 features:
 - title: 企业级开发
   details: 定位于企业级软件场景，为企业实现可扩展的柔性系统

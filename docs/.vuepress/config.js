@@ -31,7 +31,7 @@ module.exports = {
         editLinks: true,
         docsDir: 'docs',
         smoothScroll: true,
-        displayAllHeaders: true,
+        displayAllHeaders: false,
         lastUpdated: 'Last Updated', // string | boolean
         locales: {
             '/': {
@@ -64,22 +64,38 @@ module.exports = {
                     '/guide/':[
                         {
                             title: '指南',   // 必要的
-                            collapsable:false,
+                            collapsable:true,
                             sidebarDepth: 3,
                             children:[
                                 "",
-                                "1",
-                                "2"
+                                "def-doc-type.md",
+                                "def-card.md",
+                                "def-component.md",
+                                "def-doc-logic.md",
+                                "def-bpm.md",
+                                "def-dmn.md",
+                                "def-base.md"
+                            ]
+                        },
+                        {
+                            title: '设置',   // 必要的
+                            collapsable:true,
+                            sidebarDepth: 3,
+                            children:[
+                                "settings-menu.md",
+                                "settings-auth.md"
                             ]
                         },
                         {
                             title: '深入了解',   // 必要的
-                            collapsable:false,
+                            collapsable:true,
                             sidebarDepth: 3,
                             children:[
-                                "",
-                                "1",
-                                "2"
+                                "advanced-data.md",
+                                "advanced-debug.md",
+                                "advanced-auto-process.md",
+                                "advanced-open-api.md",
+                                "advanced-deploy.md"
                             ]
                         }
                     ],
@@ -90,8 +106,6 @@ module.exports = {
                             sidebarDepth: 3,
                             children:[
                                 "",
-                                "1",
-                                "2"
                             ]
                         },
                     ]

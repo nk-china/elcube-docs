@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2225a11-a885-482f-839b-4bc56adb96df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b2225a11-a885-482f-839b-4bc56adb96df" name="Default Changelist" comment="Easis Docs">
+      <change afterPath="$PROJECT_DIR$/docs/guide/advanced-auto-process.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/advanced-data.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/advanced-debug.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/advanced-deploy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/advanced-open-api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/def-bpm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/def-card.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/def-component.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/def-dmn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/def-doc-logic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/qa.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/settings-auth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/settings-menu.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/develop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/develop/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/def-doc-type.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/def-base.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/guide" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
@@ -42,13 +61,14 @@
       <recent name="$PROJECT_DIR$/docs/.vuepress/public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/guide" />
+      <recent name="$PROJECT_DIR$/docs/.vuepress/public" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/docs/develop" />
-      <recent name="$PROJECT_DIR$/docs/guide" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:build">
+  <component name="RunManager" selected="npm.docs:dev">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/easis-docs/docs/.vuepress/dist/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -74,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.docs:dev" />
+        <item itemvalue="npm.docs:build" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -91,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638426652344</updated>
-      <workItem from="1638426653455" duration="6588000" />
+      <workItem from="1638426653455" duration="8876000" />
     </task>
     <task id="LOCAL-00001" summary="Easis Docs">
       <created>1638433002523</created>
@@ -107,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638433417871</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Easis Docs">
+      <created>1638433441031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638433441031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Easis Docs">
+      <created>1638433695077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638433695077</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,25 +153,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="Easis Docs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="537" y="103" key="CommitChangelistDialog2" timestamp="1638433417798">
+    <state x="537" y="103" key="CommitChangelistDialog2" timestamp="1638433695022">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="537" y="103" key="CommitChangelistDialog2/0.23.1920.1010@0.23.1920.1010" timestamp="1638433417798" />
-    <state width="1899" height="387" key="GridCell.Tab.0.bottom" timestamp="1638433383170">
+    <state x="537" y="103" key="CommitChangelistDialog2/0.23.1920.1010@0.23.1920.1010" timestamp="1638433695022" />
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom" timestamp="1638433825686">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383170" />
-    <state width="1899" height="387" key="GridCell.Tab.0.center" timestamp="1638433383169">
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1638433825686" />
+    <state width="1899" height="284" key="GridCell.Tab.0.center" timestamp="1638433825684">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383169" />
-    <state width="1899" height="387" key="GridCell.Tab.0.left" timestamp="1638433383169">
+    <state width="1899" height="284" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1638433825684" />
+    <state width="1899" height="284" key="GridCell.Tab.0.left" timestamp="1638433825683">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383169" />
-    <state width="1899" height="387" key="GridCell.Tab.0.right" timestamp="1638433383170">
+    <state width="1899" height="284" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1638433825683" />
+    <state width="1899" height="284" key="GridCell.Tab.0.right" timestamp="1638433825685">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1638433383170" />
+    <state width="1899" height="284" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1638433825685" />
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1638433739889">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1638433739889" />
+    <state x="782" y="429" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1638433733915">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="782" y="429" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1638433733915" />
   </component>
 </project>
