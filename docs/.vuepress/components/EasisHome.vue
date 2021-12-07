@@ -53,6 +53,8 @@ export default defineComponent({
     components: { NoteAbstract, TagList, FriendLink, NavLink, ModuleTransition, PersonalInfo, RecoIcon },
     setup (props, ctx) {
 
+        console.log(ctx)
+        console.log(ctx.root)
         console.log(getCurrentInstance())
         console.log(getCurrentInstance().proxy)
 
