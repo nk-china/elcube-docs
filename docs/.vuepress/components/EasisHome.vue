@@ -52,20 +52,24 @@ import { getOneColor } from 'vuepress-theme-reco/helpers/other'
 export default defineComponent({
     components: { NoteAbstract, TagList, FriendLink, NavLink, ModuleTransition, PersonalInfo, RecoIcon },
     setup (props, ctx) {
-        const instance = getCurrentInstance().proxy
-
-        console.log(instance)
 
         const state = reactive({
             recoShow: false,
             heroHeight: 0
         })
 
-        const recoShowModule = computed(() => instance && instance.$parent.recoShowModule)
+        const recoShowModule = computed(() => {
+            const instance = getCurrentInstance().proxy
+            return instance && instance.$parent.recoShowModule
+        })
 
-        const heroImageStyle = computed(() => instance.$frontmatter.heroImageStyle || {})
+        const heroImageStyle = computed(() => {
+            const instance = getCurrentInstance().proxy
+            instance.$frontmatter.heroImageStyle || {}
+        })
 
         const bgImageStyle = computed(() => {
+            const instance = getCurrentInstance().proxy
             const url = instance && instance.$frontmatter.bgImage
                 ? instance.$withBase(instance.$frontmatter.bgImage)
                 : require('vuepress-theme-reco/images/bg.svg')
@@ -80,9 +84,12 @@ export default defineComponent({
 
             return bgImageStyle ? { ...initBgImageStyle, ...bgImageStyle } : initBgImageStyle
         })
-        const actionLink = computed(() => instance && {
-            link: instance.$frontmatter.actionLink,
-            text: instance.$frontmatter.actionText
+        const actionLink = computed(() => {
+            const instance = getCurrentInstance().proxy
+            return instance && {
+                link: instance.$frontmatter.actionLink,
+                text: instance.$frontmatter.actionText
+            }
         })
 
         onMounted(() => {
