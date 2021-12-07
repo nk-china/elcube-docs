@@ -35,7 +35,7 @@ module.exports = {
     themeConfig: {
         logo: '/assets/easis.logo.png',
         repo: 'easis-docs',
-        type: 'blog',
+        type: 'EasisHome',
 
         editLinks: true,
         docsDir: 'docs',
