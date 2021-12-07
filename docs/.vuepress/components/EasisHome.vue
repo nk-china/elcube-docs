@@ -40,8 +40,7 @@
 </template>
 
 <script>
-import { getCurrentInstance } from 'vue'
-import { defineComponent, toRefs, reactive, computed, onMounted } from 'vue-demi'
+import { defineComponent, toRefs, reactive, computed, getCurrentInstance, onMounted } from 'vue-demi'
 import TagList from 'vuepress-theme-reco/components/TagList'
 import NavLink from 'vuepress-theme-reco/components/NavLink'
 import FriendLink from 'vuepress-theme-reco/components/FriendLink'
