@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /easis.logo.png
-heroText: New Paradigm
+heroImage: /assets/easis.png
+heroText: New Paradigm, Support complex scenairos
 tagline: Ability to support complex scenarios and frequent changes
 actionText: Get started →
 actionLink: /zh/guide/

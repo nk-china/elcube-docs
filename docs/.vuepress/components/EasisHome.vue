@@ -54,6 +54,8 @@ export default defineComponent({
     setup (props, ctx) {
         const instance = getCurrentInstance().proxy
 
+        console.log(instance)
+
         const state = reactive({
             recoShow: false,
             heroHeight: 0
@@ -64,7 +66,7 @@ export default defineComponent({
         const heroImageStyle = computed(() => instance.$frontmatter.heroImageStyle || {})
 
         const bgImageStyle = computed(() => {
-            const url = instance.$frontmatter.bgImage
+            const url = instance && instance.$frontmatter.bgImage
                 ? instance.$withBase(instance.$frontmatter.bgImage)
                 : require('vuepress-theme-reco/images/bg.svg')
 
