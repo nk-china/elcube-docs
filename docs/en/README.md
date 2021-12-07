@@ -5,7 +5,7 @@ heroText: New Paradigm, Support complex scenairos
 tagline: Ability to support complex scenarios and frequent changes
 actionText: Get started →
 actionLink: /zh/guide/
-demoText: Try It →
+demoText: Try now
 demoLink: http://v2.ts5.it
 features:
 - title: 企业级开发

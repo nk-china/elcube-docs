@@ -10,7 +10,7 @@ heroText: 开启企业级信息化的新范式
 tagline: 提升企业驾驭复杂场景的能力及频繁变更
 actionText: 快速上手 →
 actionLink: /guide/
-demoText: 在线体验 →
+demoText: 即刻体验
 demoLink: http://v2.ts5.it
 features:
 - title: 企业级开发
