@@ -35,10 +35,10 @@ module.exports = {
     themeConfig: {
         logo: '/assets/easis.logo.png',
         repo: 'easis-docs',
-        type: 'EasisHome',
+        type: 'blog',
 
         editLinks: true,
-        docsDir: 'blog',
+        docsDir: 'docs',
         smoothScroll: true,
         displayAllHeaders: false,
         lastUpdated: 'Last Updated', // string | boolean
