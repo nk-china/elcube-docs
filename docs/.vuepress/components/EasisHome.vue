@@ -76,7 +76,7 @@ export default defineComponent({
                 background: `url(${url}) center/cover no-repeat`
             }
 
-            const { bgImageStyle } = instance.$frontmatter
+            const { bgImageStyle } = instance && instance.$frontmatter || {}
 
             return bgImageStyle ? { ...initBgImageStyle, ...bgImageStyle } : initBgImageStyle
         })
