@@ -38,7 +38,7 @@ module.exports = {
         type: 'EasisHome',
 
         editLinks: true,
-        docsDir: 'docs',
+        docsDir: 'blog',
         smoothScroll: true,
         displayAllHeaders: false,
         lastUpdated: 'Last Updated', // string | boolean
