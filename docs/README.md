@@ -10,8 +10,8 @@ heroText: 开启企业级信息化的新范式
 tagline: 提升企业驾驭复杂场景的能力及频繁变更
 actionText: 快速上手 →
 actionLink: /guide/
-demoText: 快速上手 →
-demoLink: /guide/
+demoText: 在线体验 →
+demoLink: http://v2.ts5.it
 features:
 - title: 企业级开发
   details: 定位于企业级软件场景，为企业实现可扩展的柔性系统
@@ -23,7 +23,6 @@ footer: AGPL-3.0 Licensed | Copyright © 2021-纽扣互联（北京）科技有�
 ---
 
 <br/>
----
 
 
 
@@ -35,8 +34,6 @@ Easis由easy（简单、轻松）和oasis（绿洲、舒适的地方）两个词
 同时，也让开发人员更轻松、更从容的应对变更。
 :::
 
-<br/>
----
 <br/>
 
 # 架构
