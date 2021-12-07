@@ -1,5 +1,5 @@
 module.exports = {
-    theme: 'reco',
+    // theme: 'vuepress-theme-reco',
     plugins: [
         '@vuepress/active-header-links',
         '@vuepress/back-to-top',
