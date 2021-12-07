@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /easis.logo.png
-heroText: 开启企业级信息化的新范式
-tagline: 提升企业驾驭复杂场景的能力及频繁变更
-actionText: 快速上手 →
+heroText: New Paradigm
+tagline: Ability to support complex scenarios and frequent changes
+actionText: Get started →
 actionLink: /zh/guide/
 features:
 - title: 企业级开发
