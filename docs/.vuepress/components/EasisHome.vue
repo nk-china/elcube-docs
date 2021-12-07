@@ -53,6 +53,9 @@ export default defineComponent({
     components: { NoteAbstract, TagList, FriendLink, NavLink, ModuleTransition, PersonalInfo, RecoIcon },
     setup (props, ctx) {
 
+        console.log(getCurrentInstance())
+        console.log(getCurrentInstance().proxy)
+
         const state = reactive({
             recoShow: false,
             heroHeight: 0
