@@ -16,4 +16,3 @@ features:
   details: 独创的卡片模块式开发模式。可实现一次开发多处复用
 footer: AGPL-3.0 Licensed | Copyright © 2021-NiuKou
 ---
-# Hello EAsis
