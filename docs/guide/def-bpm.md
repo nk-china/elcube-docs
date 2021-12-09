@@ -1,7 +1,7 @@
 # 审批流
 ## 创建审批流
 
-暂无内容
+`待完善`
 
 ## 控制单据状态
 
@@ -67,11 +67,11 @@ UpdateAgainJavaDelegate会越过**DocEngine**的锁机制，将被修改过的�
 
 #### ${NkAssigneeExecutionListener} 代理人选择监听器
 
-*功能待实现*
+`功能待实现`
 
 #### ${NkCandidateExecutionListener} 候选人选择监听器
 
-*功能待实现*
+`功能待实现`
 
 ## 会签
 
