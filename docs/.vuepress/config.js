@@ -7,6 +7,9 @@ module.exports = {
         '@vuepress/plugin-register-components',
         'vuepress-plugin-container',
     ],
+    markdown: {
+        lineNumbers: true
+    },
     port: 8200,
     dest: './dist',
     head: [
@@ -90,6 +93,7 @@ module.exports = {
                             sidebarDepth: 3,
                             children:[
                                 "",
+                                "def-el.md",
                                 "def-doc-type.md",
                                 "def-card.md",
                                 "def-component.md",
