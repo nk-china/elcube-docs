@@ -70,9 +70,9 @@
 </template>
 
 <script>
-import NavLink from '@vuepress/theme-default/components/NavLink.vue'
+import NavLink from '@parent-theme/components/NavLink.vue'
 
-import url from './bg.svg';
+import url from '../bg.svg';
 
 export default {
     name: 'Home',

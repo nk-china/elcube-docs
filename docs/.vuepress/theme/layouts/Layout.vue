@@ -28,7 +28,6 @@
         </Sidebar>
 
         <Home v-if="$page.frontmatter.home" />
-
         <Page
             v-else
             :sidebar-items="sidebarItems"
@@ -44,11 +43,11 @@
 </template>
 
 <script>
-import Home from './Home.vue'
-import Navbar from '@vuepress/theme-default/components/Navbar.vue'
-import Page from '@vuepress/theme-default/components/Page.vue'
-import Sidebar from '@vuepress/theme-default/components/Sidebar.vue'
-import { resolveSidebarItems } from '@vuepress/theme-default/util'
+import Home from '@theme/components/Home.vue'
+import Navbar from '@parent-theme/components/Navbar.vue'
+import Page from '@theme/components/Page.vue'
+import Sidebar from '@parent-theme/components/Sidebar.vue'
+import { resolveSidebarItems } from '@parent-theme/util'
 
 export default {
     name: 'Layout',
