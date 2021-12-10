@@ -31,7 +31,7 @@ export default {
 .page
     display block
     .theme-default-content,.page-edit,.page-nav
-        max-width 1200px
+        max-width 960px
     .opensource-info
         //background-color black
         //height 300px
