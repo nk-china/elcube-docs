@@ -171,7 +171,7 @@ data.base?.name ?: "Bean" // 返回base卡片中的name字段的值，没有则�
 {{"name":"Bean","age":31},{"name":"Max","age":3}}![{name:name}] 
 ```
 
-### 表达式模版 SpEL
+### 表达式模版
 表达式模板允许文字文本与一个或多个解析块的混合，
 
 在`SpEL`标准语法中使用`＃{}`作为分隔符，
