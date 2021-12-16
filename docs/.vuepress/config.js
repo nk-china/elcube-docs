@@ -13,7 +13,7 @@ module.exports = {
     port: 8200,
     dest: './dist',
     head: [
-        ['link', { rel: 'icon', href: `/assets/easis.logo.min.png` }],
+        ['link', { rel: 'icon', href: `/assets/img/elcube_ico.png` }],
         // ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#fff' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -26,19 +26,19 @@ module.exports = {
     locales: {
         '/': {
             lang: 'zh-CN',
-            title: 'EAsis 企业级快速开发模型',
+            title: 'ELCube 企业级快速开发模型',
             description: '企业级快速开发模型'
         },
         '/en/': {
             lang: 'en-US',
-            title: 'EAsis 企业级快速开发模型',
+            title: 'ELCube 企业级快速开发模型',
             description: '企业级快速开发模型'
         }
     },
     themeConfig: {
-        logo: '/assets/easis.logo.png',
-        repo: 'easis-docs',
-        type: 'EasisHome',
+        logo: '/assets/img/elcube_logo_100x100.png',
+        repo: 'elcube-docs',
+        //type: 'EasisHome',
 
         editLinks: true,
         docsDir: 'docs',
@@ -46,16 +46,6 @@ module.exports = {
         displayAllHeaders: false,
         lastUpdated: 'Last Updated', // string | boolean
 
-        record: 'ICP 备案文案',
-        recordLink: 'ICP 备案指向链接',
-        // cyberSecurityRecord: '公安部备案文案',
-        // cyberSecurityLink: '公安部备案指向链接',
-        // 项目开始时间，只填写年份
-        startYear: '2019',
-        noFoundPageByTencent: false,
-
-        mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
-        modePicker: false, // 默认 true，false 不显示模式调节按钮，true 则显示
 
         locales: {
             '/': {
@@ -68,7 +58,7 @@ module.exports = {
                     { text: '首页', link: '/' },
                     { text: '指南', link: '/guide/' },
                     { text: '开发', link: '/develop/' },
-                    { text: 'EAsis Pro', link: '/easis-pro.md'},
+                    { text: 'ELCube Pro', link: '/easis-pro.md'},
                     {
                         text: '更多',
                         items: [
