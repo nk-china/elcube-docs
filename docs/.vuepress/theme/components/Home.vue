@@ -122,9 +122,9 @@ export default {
         text-align center
         img
             max-width: 100%
-            max-height 280px
+            max-height 200px
             display block
-            margin 3rem auto 1.5rem
+            margin 4rem auto 0rem
         h1
             font-size 3rem
         h1, .description, .action

@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /assets/img/elcube_logo_600x400.png
+heroImage: /assets/img/elcube_logo_600x300.png
 heroImageStyle: {
-  maxHeight: '280px',
+  maxHeight: '200px',
   display: block,
-  margin: '0 auto 1.5rem'
+  margin: '3rem auto'
 }
 heroText: 开启企业级信息化的新范式
 tagline: 提升企业驾驭复杂场景及频繁变更的能力
