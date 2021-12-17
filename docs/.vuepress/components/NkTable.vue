@@ -35,5 +35,9 @@
             width 66.6666%
         .tb-12
             width 50%
+        .tb-10
+            width 45%
+        .tb-4
+            width 10%
 
 </style>

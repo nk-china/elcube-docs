@@ -31,8 +31,8 @@ module.exports = {
         },
         '/en/': {
             lang: 'en-US',
-            title: 'ELCube 企业级快速开发模型',
-            description: '企业级快速开发模型'
+            title: 'ELCube',
+            description: 'Enterprise class development model'
         }
     },
     themeConfig: {

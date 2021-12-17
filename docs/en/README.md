@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /assets/easis.png
+heroImage: /assets/img/elcube_logo_600x300.png
 heroText: New Paradigm, Support complex scenairos
 tagline: Ability to support complex scenarios and frequent changes
 actionText: Get started →
@@ -8,11 +8,19 @@ actionLink: /zh/guide/
 demoText: Try now
 demoLink: http://v2.ts5.it
 features:
-- title: 企业级开发
-  details: 定位于企业级软件场景，为企业实现可扩展的柔性系统
-- title: 领域建模
-  details: 任何复杂的业务场景都是基于模型或范式。用不变解决变化
-- title: 模块式开发
-  details: 独创的卡片模块式开发模式。可实现一次开发多处复用
+- title: Enterprise Class
+  details: Realize scalable flexible system for enterprises
+- title: Business Modeling
+  details: Build business by modeling, not by technology
+- title: High Configurability
+  details: Build your application based on components  
 footer: AGPL-3.0 Licensed | Copyright © 2021-NiuKou
 ---
+<br/>
+
+::: tip About ELCube
+**ELcube** solves the problem that the enterprise change curve does not match the software follow curve. We are committed to developing a fast and flexible enterprise platform model,Make the enterprise more calm and let the technicians get out of the dilemma. Solve complex business problems by means of business modeling, rather than binding enterprises by means of technology stacking.
+
+:::
+
+<br/>
