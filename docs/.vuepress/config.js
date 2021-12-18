@@ -37,7 +37,7 @@ module.exports = {
     },
     themeConfig: {
         logo: '/assets/img/elcube_logo_100x100.png',
-        repo: 'elcube-docs',
+        repo: 'nk-china/elcube-docs',
         //type: 'EasisHome',
 
         editLinks: true,
