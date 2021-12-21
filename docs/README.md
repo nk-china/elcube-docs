@@ -13,11 +13,11 @@ actionLink: /guide/
 demoText: 即刻体验
 demoLink: http://v2.ts5.it
 features:
-- title: 面向企业
+- title: 为企业而设计
   details: 需求变更源于市场变化，您需要一套灵活可扩展的平台，ELCube定位于企业级软件场景，为企业实现可扩展的柔性系统
-- title: 业务建模
+- title: 还原业务本质
   details: 您可能一直在寻找一个能够支撑变化的技术架构，ELCube提供了一套业务建模的功能，通过建模的方式支撑业务变更
-- title: 高可配置
+- title: 灵活而且强大
   details: 高效、快速、灵活是您的诉求，ELCube采用低代码设计模式，您可以在系统中构建您的业务逻辑来满足灵活性的需要
 footer: AGPL-3.0 Licensed | Copyright © 2021-纽扣互联（北京）科技有限公司
 ---
@@ -62,7 +62,7 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
 ## 开源理念
    
    ::: warning 技术是工具，用好技术是艺术
-   长期以来，我们一直关注技术本身，如何用好技术更重要<br>
+   长期以来，大多数人关注的是技术本身，但如何用好技术其实更重要<br>
    我们致力于为您提供端到端的服务，帮助企业实现业务与技术的融合
    :::
 
@@ -171,7 +171,7 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
 
 <br>
 
-## 约定大于配置，配置大于开发，ELCube具备低代码平台的特性，但不止于低代码
+## 约定决定配置，配置决定开发，ELCube具备低代码平台的特性，但不止于低代码
 <NkTable :leftWidth="8" :middWidth="8" :rigthWidth="8">
  <p slot="l"> 
   <component>
@@ -269,13 +269,13 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
 
 <br>
 
-   ### 功能特性3--待完善
+   ### 像画图一样简单简便，您可以为每一个交易环节增加审批流程
    
 <NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
  <p slot="l">
   <component>
 
-   <img src="/assets/img/elcube_bizflow_screen.jpg" width="500px" />
+   <img src="/assets/img/elcube_bizwfl_screen.jpg" width="500px" />
    
   </component>
  </p>
@@ -285,15 +285,100 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
  <p slot="r">
   <component>
    
-   - 您可以通过ELCube提供的功能快速搭建业务
-     
-   - 您所有的变更都能对应到相应的模型中
-     
-   - 组件化配置化的设计使系统具备良好的扩展性
-     
-   - 能否快速的支持业务的变化更取决于功能架构
-     
-   - 用业务建模的方式解决业务变化更有效 
+   <br>
+   
+   #### ELCube改变了传统系统对工作流的使用方式
+   #### 工作流仅负责业务审批，避免过于依赖工作流
+   #### 交易环节之间的跳转在ELCube中配置实现
+   #### 交易环节内的业务审批通过工作流完成
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 您可以将您的业务决策和规则线上化，修改这些规则无需编写代码
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+
+   <br>
+   
+   #### ELCube平台支持基于DMN标准的决策建模方式
+   #### 通过构建决策模型，可以将业务规则植入系统中
+   #### 满足业务决策、风险预警、合规安全等场景需求
+   
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <img src="/assets/img/elcube_bizdmn_screen.jpg" width="500px" />
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 您可以在ELCube中通过数据发现、数据可视化、数据发布来管理和探查业务数据
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+
+   <img src="/assets/img/elcube_bizdata_screen.jpg" width="500px" /> 
+   
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <br>
+   
+   #### 您可以在ELCube中快速实现可视化报表、仪表盘、数据大屏
+   
+   #### 数据报表的创建过程无需编码
+   
+   #### 数据响应速度可以达到千万级数据秒级查询
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 在ELCube中系统的发布和功能更新是一个很便捷的过程
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+   <br>
+   
+   #### ELCube为您提供了一套配置与代码的部署功能
+   #### 您可以方便的管理配置的版本、组件代码的版本
+   #### 还能在开发、测试、生产环境中同步无需重启应用
+   
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <img src="/assets/img/elcube_bizdev_screen.jpg" width="500px" />
    
   </component>
  </p>
