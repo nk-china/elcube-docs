@@ -83,6 +83,7 @@ module.exports = {
                             sidebarDepth: 3,
                             children:[
                                 "",
+                                "def.md",
                                 "def-el.md",
                                 "def-doc-type.md",
                                 "def-card.md",

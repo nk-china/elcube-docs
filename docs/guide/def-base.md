@@ -117,7 +117,7 @@ searchItemsMoreDef 描述界面的更多的输入框，与searchItemsDefault区�
 |params.orderField|对于text类型的字段，如果排序则需要指定该字段的原始数据字段，一般情况下为`field`.original||
 
 ### 一个典型的例子
-```json
+```javascript
 {
     "index": "document",
     "preViewVisible": true,
