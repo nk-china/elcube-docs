@@ -13,11 +13,11 @@ actionLink: /guide/
 demoText: 即刻体验
 demoLink: http://v2.ts5.it
 features:
-- title: 面向企业
+- title: 为企业而设计
   details: 需求变更源于市场变化，您需要一套灵活可扩展的平台，ELCube定位于企业级软件场景，为企业实现可扩展的柔性系统
-- title: 业务建模
+- title: 还原业务本质
   details: 您可能一直在寻找一个能够支撑变化的技术架构，ELCube提供了一套业务建模的功能，通过建模的方式支撑业务变更
-- title: 高可配置
+- title: 灵活而且强大
   details: 高效、快速、灵活是您的诉求，ELCube采用低代码设计模式，您可以在系统中构建您的业务逻辑来满足灵活性的需要
 footer: AGPL-3.0 Licensed | Copyright © 2021-纽扣互联（北京）科技有限公司
 ---
@@ -34,7 +34,7 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
 <br/>
 
 
-## 我们的洞察
+## 行业洞察
 <NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
  <p slot="l">
   <img src="/assets/img/curve_500x350.jpg" width="500px" />
@@ -47,11 +47,11 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
    
    >企业一直处于变革过程，传统的软件模式无法很好的<br>跟随企业变更。软件生命周期一般在3-5年，无法持续<br>支撑企业长周期的要求
 
-   - 变化｜企业的发展是持续变化的、不预知的
-   - 效率｜系统僵化无法满足来自业务的频繁变更
-   - 投入｜持续投入、重复建设，但效果不明显
-   - 技术｜企业希望技术自主可控，不被限制和绑定
-   - 目标｜科技与业务的融合，达成企业的战略目标
+   - 变化｜企业总是持续地、不可预知地发生着变化
+   - 效率｜您的系统不能满足业务变化源于功能的僵化
+   - 投入｜面对持续投入和重复建设，但效果不明显
+   - 技术｜您希望技术自主可控，不被限制和绑定
+   - 目标｜科技与业务的融合才能达成企业的战略目标
       
   </component>
  </p>
@@ -59,18 +59,20 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
 
 <br>
 
-## 我们的理念
+## 开源理念
    
    ::: warning 技术是工具，用好技术是艺术
-   我们致力于为企业提供端到端的服务，帮助企业实现业务与技术的融合
+   长期以来，大多数人关注的是技术本身，但如何用好技术其实更重要<br>
+   我们致力于为您提供端到端的服务，帮助企业实现业务与技术的融合
    :::
 
-   ::: warning 免费无关价值，而是聚焦转型
-   数字化转型不仅是一种技术改造，而是一种文化、业务、管理理念的转型
+   ::: warning 开源无关价值，而是聚焦转型
+   数字化转型不仅是一种技术提升，而是一种文化和管理理念的转型<br>
+   开源的目的是希望我们共同将精力聚焦在转型本身而非技术细节
    :::
 <br>
 
-## 我们的产品
+## ELCube概览-- -[说明：本节图片都是占位图片，后期需要重新调整]-
 <NkTable :leftWidth="8" :middWidth="8" :rigthWidth="8">
  <p slot="l"> 
   <component>
@@ -135,6 +137,257 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
 
 <br>
 
+## 模型理论
+
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+   <img src="/assets/img/domain_model.jpg" width="500px" />
+
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+
+   ### ELCube能帮助您快速地构建业务模型
+   
+   - ELCube提供了一套业务建模的软件实施工艺
+
+   - 您可以快速的在ELCube中构建您的业务流程
+
+   - 能否灵活的支持业务的变化更取决于功能架构
+
+   - 用业务建模的方式解决业务变化是更有效的方式
+
+   - 约定+配置+开发的方式是企业信息化的新范式
+   
+
+  </component>
+ </p>
+</NkTable>
+
+<br>
+
+## 约定决定配置，配置决定开发，ELCube具备低代码平台的特性，但不止于低代码
+<NkTable :leftWidth="8" :middWidth="8" :rigthWidth="8">
+ <p slot="l"> 
+  <component>
+  
+   ### 约定
+   
+   企业所参与的业务场景中具有一定的行业特性，他们都具备一定的规则，这些规则常被称为“领域模型”，合理的约定层能够在满足业务特性的前提下提供良好的扩展性
+     
+  </component>
+ </p>
+ <p slot="m">
+  <component>
+  
+   ### 配置
+   
+   在ELCube中您可以将业务交易的过程以及业务逻辑通过配置的方式实现，并可以根据需求的变更随时调整他们，在响应变更的同时又不破坏系统功能的整体性
+      
+  </component> 
+ </p>
+ <p slot="r">
+  <component>
+  
+   ### 开发
+   
+   开发人员可以通过编写代码和增加表达式语言<br>的方式实现逻辑细节，这些细节的逻辑通过配<br>置的方式作用到具体的功能，当逻辑发生变更<br>时可以轻易地调整
+      
+  </component>
+ </p>
+</NkTable>
+
+<br>
+
+## 功能特性
+
+   ### 企业的业务场景是复杂的网状结构，您可以采用业务建模的方式还原业务的本质
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+
+   <img src="/assets/img/elcube_bizflow_screen.jpg" width="500px" />
+
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <br>
+   
+   > 本范例给出了一套融资租赁业务的场景展示
+
+   <br>
+   
+   #### 您可以通过ELCube提供的功能快速搭建业务场景，
+   #### 一个平台可以同时支持多种业务场景
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 业务模式的复杂性源于交易伙伴间的交易流程，ELCube帮助您有效地管理他们
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+
+   > 融资租赁场景的交易伙伴是基于多方交易的复杂金融场景业务
+
+   <br>
+   
+   #### 您可以通过ELCube管理您的交易相关方，并通过配置的
+   
+   #### 方式扩展角色，一个对象可以同时拥有多个角色
+
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <img src="/assets/img/elcube_tp_screen.jpg" width="500px" />
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 像画图一样简单简便，您可以为每一个交易环节增加审批流程
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+
+   <img src="/assets/img/elcube_bizwfl_screen.jpg" width="500px" />
+   
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <br>
+   
+   #### ELCube改变了传统系统对工作流的使用方式
+   #### 工作流仅负责业务审批，避免过于依赖工作流
+   #### 交易环节之间的跳转在ELCube中配置实现
+   #### 交易环节内的业务审批通过工作流完成
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 您可以将您的业务决策和规则线上化，修改这些规则无需编写代码
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+
+   <br>
+   
+   #### ELCube平台支持基于DMN标准的决策建模方式
+   #### 通过构建决策模型，可以将业务规则植入系统中
+   #### 满足业务决策、风险预警、合规安全等场景需求
+   
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <img src="/assets/img/elcube_bizdmn_screen.jpg" width="500px" />
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 您可以在ELCube中通过数据发现、数据可视化、数据发布来管理和探查业务数据
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+
+   <img src="/assets/img/elcube_bizdata_screen.jpg" width="500px" /> 
+   
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <br>
+   
+   #### 您可以在ELCube中快速实现可视化报表、仪表盘、数据大屏
+   
+   #### 数据报表的创建过程无需编码
+   
+   #### 数据响应速度可以达到千万级数据秒级查询
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+   ### 在ELCube中系统的发布和功能更新是一个很便捷的过程
+   
+<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
+ <p slot="l">
+  <component>
+   <br>
+   
+   #### ELCube为您提供了一套配置与代码的部署功能
+   #### 您可以方便的管理配置的版本、组件代码的版本
+   #### 还能在开发、测试、生产环境中同步无需重启应用
+   
+  </component>
+ </p>
+ 
+ <p slot="m"></p>
+ 
+ <p slot="r">
+  <component>
+   
+   <img src="/assets/img/elcube_bizdev_screen.jpg" width="500px" />
+   
+  </component>
+ </p>
+</NkTable>
+
+
+<br>
+
+
 ## 技术架构
 
 <NkTable :leftWidth="12" :rigthWidth="12">
@@ -167,40 +420,6 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
 
 <br>
 
-## 业务模型
-
-<NkTable :leftWidth="10" :middWidth="4" :rigthWidth="10">
- <p slot="l">
-  <component>
-   <img src="/assets/img/domain_model.jpg" width="500px" />
-
-  </component>
- </p>
- 
- <p slot="m"></p>
- 
- <p slot="r">
-  <component>
-
-   ### ELCube帮助您快速地构建业务模型
-   
-   - 您可以通过ELCube提供的功能快速搭建业务
-   
-   - 您所有的变更都能对应到相应的模型中
-   
-   - 组件化配置化的设计使系统具备良好的扩展性
-   
-   - 能否快速的支持业务的变化更取决于功能架构
-   
-   - 用业务建模的方式解决业务变化更有效
-   
-
-  </component>
- </p>
-</NkTable>
-
-<br>
-
 ## 关于团队
 
 <NkTable :leftWidth="8" :middWidth="8" :rigthWidth="8">
@@ -211,6 +430,8 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
    
    我们一直在探究事物的本质，从第一性原理出发寻找问题的原点，用最恰当的方式解决特定的问题，不断的学习和思考形成我们的洞见，通过分享和交流不断提高
   
+   [了解详情 -->](about.md)
+  
   </component>
  </p>
  <p slot="m">
@@ -219,7 +440,9 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
    ### 团队努力的目标
    
    我们一直从事企业级软件开发，企业在信息化方面投入了大量的资金，开发者面对需求变更痛苦不堪，我们致力于解决这些问题，让企业实现科技与业务的融合
-  
+   
+   [了解详情 -->](about.md)
+   
   </component> 
  </p>
  <p slot="r">
@@ -228,7 +451,9 @@ ELCube（逻辑魔方），解决企业变更曲线与软件跟随曲线不匹�
    ### 分享包容的心态
    
    开源免费不忘初心，我们现在的积累和成果是因为站<br>在前人的肩膀上，技术是无国界的是属于所有开发者<br>的，我们致力于开发出用户钟爱的产品并能做到开诚布公
-  
+   
+   [了解详情 -->](about.md)
+   
   </component>
  </p>
 </NkTable>

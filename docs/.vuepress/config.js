@@ -68,7 +68,7 @@ module.exports = {
                                 ] },
                             { text: '联系我们', items: [
                                     {text: '联系我们', link: '/contact.md'},
-                                    {text: '关于EAsis', link: '/about.md'},
+                                    {text: '关于ELCube', link: '/about.md'},
                                 ] }
                         ]
                     },
